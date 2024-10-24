@@ -1,0 +1,29 @@
+<div class="d-flex content-center">
+  <div class="container">
+    <div class="">
+      <label for="inputNumber">Operando A</label>
+      <input id="inputNumber" type="number" maxlength="4" style="width: 100px; margin-left: 10px;"
+        (input)="operandoA($event)">
+    </div>
+    <div class="mt-2">
+      <label for="inputNumber">Operando B</label>
+      <input id="inputNumber" type="number" maxlength="4" style="width: 100px; margin-left: 10px;"
+        (input)="operandoB($event)">
+    </div>
+    <div class="d-flex justify-content-center mt-3">
+      <button class="btn btn-primary me-2" (click)="sumar()">
+        Sumar
+      </button>
+    </div>
+    <div class="container">
+        <div class="row mt-4">
+      <div class="w-50 mt-3">
+        Resultado:
+      </div>
+      <div class="alert alert-primary mx-auto w-50">
+        {{resultado}}
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
