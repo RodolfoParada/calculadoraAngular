@@ -1,4 +1,5 @@
 # Calculadora
+## Se utilizó Event Binding, Property Binding y Two-way Binding 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.6.
 
